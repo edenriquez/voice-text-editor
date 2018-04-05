@@ -200,4 +200,3 @@ class App {
       window.open(`http://${url}`,'_newtab');
     }
   }
-  
