@@ -1,9 +1,9 @@
-class App {
+export class Speech {
     constructor () {
       window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
       this.recognition = new SpeechRecognition();
       this.synth = window.speechSynthesis;
-      this.icon = document.querySelector('i.fa.fa-microphone');
+      this.icon = document.querySelector('i.fa.fa-play.faa-horizontal.animated');
       this.paragraph = document.createElement('p');
       this.container = document.querySelector('.text-box');
       this.sound = document.querySelector('.sound');
